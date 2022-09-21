@@ -1152,6 +1152,12 @@ main {
   content: "";
 }
 
+@media only screen and (max-width: 570px) {
+  .hero__inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .aside__inner__title {
   margin: 0;
   margin-bottom: 8px;

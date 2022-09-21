@@ -42,7 +42,7 @@ color: #22343D;
     font-size: 16px;
     line-height: 100%;
     color: #22343D;
-    
+ 
 } 
 .hero__inner__form__input{ 
     border: none; 
@@ -99,7 +99,7 @@ color: #22343D;
 } 
 
 @media only screen and (max-width:790px){ 
-  
+
 
 } 
 
@@ -107,5 +107,9 @@ color: #22343D;
 
 @media only screen and (max-width:570px){ 
    
-
+    .hero__inner{ 
+        display: flex; 
+        flex-direction: column;
+      
+      }
 }
